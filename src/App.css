@@ -1,0 +1,31 @@
+.name{
+  font-family: monospace;
+  text-align: center;
+}
+body{
+    background-color: rgba(0, 255, 242, 0.829);
+}
+.bio{
+  font-size: larger;
+  text-align: center;
+}
+.prof{
+  font-size: large;
+  font-family:'Courier New', Courier, monospace ;
+  text-align:  center;
+}
+.image{
+  display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 10cm;
+    height: 10cm;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image:hover{
+  -webkit-transform: scale(1.3);
+	transform: scale(1.1);
+}
